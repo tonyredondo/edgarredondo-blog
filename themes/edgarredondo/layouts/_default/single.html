@@ -16,7 +16,7 @@
     
     {{ if .Params.featured_image }}
     <div class="post-thumbnail">
-        <img alt="{{ .Title }}" src="{{ .Params.featured_image | absURL }}" />
+        <img alt="{{ .Title }}" src="{{ printf "%s%s" .Site.BaseURL (strings.TrimPrefix "/" .Params.featured_image) }}" />
     </div>
     {{ end }}
     
@@ -30,10 +30,11 @@
             Categorías: 
             {{ range $index, $category := .Params.categories }}
                 {{ if $index }}, {{ end }}
-                <a href="{{ printf "/categories/%s/" ($category | urlize) | absURL }}">{{ $category }}</a>
+                <a href="{{ printf "/categories/%s/" ($category | urlize) | relURL }}">{{ $category }}</a>
             {{ end }}
         </span>
     </footer>
     {{ end }}
 </article>
 {{ end }}
+
