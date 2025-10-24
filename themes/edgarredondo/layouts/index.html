@@ -21,7 +21,7 @@
     
     {{ if .Params.featured_image }}
     <a class="post-thumbnail" href="{{ .Permalink }}">
-        <img alt="{{ .Title }}" src="{{ .Params.featured_image }}" class="attachment-rara-academic-with-sidebar size-rara-academic-with-sidebar wp-post-image" />
+        <img alt="{{ .Title }}" src="{{ printf "%s%s" .Site.BaseURL (strings.TrimPrefix "/" .Params.featured_image) }}" class="attachment-rara-academic-with-sidebar size-rara-academic-with-sidebar wp-post-image" />
     </a>
     {{ end }}
     
