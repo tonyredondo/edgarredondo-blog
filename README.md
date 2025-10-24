@@ -1,139 +1,108 @@
-# Blog Edgar Redondo - Sitio Hugo Estático (Versión 2 - Mejorada)
+# Blog de Edgar Redondo
 
-Este es el sitio web estático generado con Hugo a partir del blog WordPress original de edgarredondo.com, con un tema personalizado que replica el diseño original.
+Blog personal de Edgar Redondo - Educador, divulgador científico y amante de la filosofía.
 
-## Características
+Migrado de WordPress a Hugo para mejor rendimiento, seguridad y facilidad de mantenimiento.
 
-✅ **Diseño idéntico al WordPress original**
-- Colores del tema Rara Academic (#018c82, #01d0c1)
-- Tipografías originales (PT Sans, Bitter)
-- Estructura HTML replicada (header, sidebar, footer)
-- CSS original del WordPress incluido
+## 🌐 Sitio Web
 
-✅ **Contenido completo y limpio**
-- 37 artículos migrados
-- 260+ imágenes descargadas
-- Contenido HTML limpiado (sin botones de WordPress)
-- Categorías y fechas preservadas
+- **Sitio original (WordPress):** http://edgarredondo.com
+- **Repositorio:** https://github.com/tonyredondo/edgarredondo-blog
 
-✅ **Enlaces funcionando correctamente**
-- Enlaces internos apuntan a artículos locales
-- Navegación por categorías funcional
-- Estructura de URLs limpia
+## 📊 Contenido
 
-## Estructura del Proyecto
+- **37 artículos** sobre filosofía, matemáticas, física, transhumanismo y más
+- **260+ imágenes** optimizadas
+- **13 categorías** temáticas
 
-```
-edgarredondo-hugo-v2/
-├── content/
-│   └── posts/          # 37 artículos en Markdown
-├── static/
-│   └── images/         # Todas las imágenes organizadas
-├── themes/
-│   └── edgarredondo/   # Tema personalizado
-│       ├── layouts/    # Templates HTML
-│       └── static/
-│           └── css/    # CSS original + personalizado
-├── public/             # Sitio generado (después de hugo)
-└── hugo.toml           # Configuración
+## 🚀 Tecnología
 
-```
+- **Hugo** v0.146.0 - Generador de sitios estáticos
+- **Tema personalizado** replicando el diseño original de WordPress
+- **URLs relativas** para portabilidad
+- **100% estático** - Sin base de datos, ultra rápido y seguro
 
-## Requisitos
+## 💻 Desarrollo Local
 
+### Requisitos
 - Hugo Extended v0.146.0 o superior
 
-## Instalación de Hugo
-
-### Linux/Ubuntu
-```bash
-wget https://github.com/gohugoio/hugo/releases/download/v0.146.0/hugo_extended_0.146.0_linux-amd64.tar.gz
-tar -xzf hugo_extended_0.146.0_linux-amd64.tar.gz
-sudo mv hugo /usr/local/bin/
-```
-
-### macOS
-```bash
-brew install hugo
-```
-
-### Windows
-Descarga desde: https://github.com/gohugoio/hugo/releases
-
-## Uso
-
-### 1. Previsualizar localmente
+### Instalación
 
 ```bash
-cd edgarredondo-hugo-v2
+# Clonar el repositorio
+git clone https://github.com/tonyredondo/edgarredondo-blog.git
+cd edgarredondo-blog
+
+# Iniciar servidor de desarrollo
 hugo server
+
+# Visitar http://localhost:1313
 ```
 
-Abre http://localhost:1313
-
-### 2. Generar sitio estático
+### Generar sitio
 
 ```bash
-cd edgarredondo-hugo-v2
+# Generar archivos estáticos en public/
 hugo --minify
 ```
 
-Los archivos estarán en `public/`
-
-### 3. Desplegar
-
-**Netlify (Recomendado)**
-1. Arrastra `public/` al dashboard de Netlify
-2. O conecta el repositorio Git
-
-**Servidor tradicional**
-1. Sube el contenido de `public/` vía FTP/SFTP
-2. Configura el servidor web
-
-## Personalización
-
-Edita `hugo.toml` para cambiar:
-- `baseURL`: Tu dominio final
-- `title`: Título del sitio
-- `params.description`: Descripción
-
-## Diferencias con el WordPress Original
-
-### Mantenido:
-- ✅ Diseño visual idéntico
-- ✅ Todos los artículos y contenido
-- ✅ Imágenes y multimedia
-- ✅ Categorías y estructura
-- ✅ Fechas de publicación
-
-### Eliminado (innecesario en sitio estático):
-- ❌ Botones de compartir en redes sociales
-- ❌ Comentarios (se pueden añadir con Disqus si se desea)
-- ❌ Búsqueda dinámica (se puede añadir con Algolia)
-
-### Mejorado:
-- ⚡ Velocidad de carga ultra rápida
-- 🔒 Seguridad máxima (sin base de datos)
-- 💰 Hosting gratuito disponible
-- 📱 Responsive design mantenido
-
-## Añadir Nuevos Artículos
+## 📝 Añadir Contenido
 
 ```bash
+# Crear nuevo artículo
 hugo new posts/nuevo-articulo/index.md
+
+# Editar content/posts/nuevo-articulo/index.md
+# Añadir imágenes en static/images/nuevo-articulo/
 ```
 
-Edita el archivo generado en `content/posts/nuevo-articulo/index.md`
+## 🚀 Despliegue
 
-## Soporte
+### Netlify (Recomendado)
 
-- Hugo: https://gohugo.io/documentation/
-- Tema personalizado basado en Rara Academic
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/tonyredondo/edgarredondo-blog)
+
+**Configuración de build:**
+- Build command: `hugo --minify`
+- Publish directory: `public`
+- Hugo version: `0.146.0`
+
+### Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tonyredondo/edgarredondo-blog)
+
+### GitHub Pages
+
+1. Ir a Settings → Pages
+2. Source: GitHub Actions
+3. Crear `.github/workflows/hugo.yml` (ver abajo)
+
+## 📁 Estructura
+
+```
+edgarredondo-blog/
+├── content/
+│   └── posts/              # Artículos en Markdown
+├── static/
+│   ├── css/                # Estilos
+│   └── images/             # Imágenes
+├── themes/
+│   └── edgarredondo/       # Tema personalizado
+├── hugo.toml               # Configuración
+└── README.md
+```
+
+## 📄 Licencia
+
+Contenido © Edgar Redondo. Todos los derechos reservados.
+
+## 👤 Autor
+
+**Edgar Redondo**
+- Email: edgarredondo@gmail.com
+- Teléfono: +34 668 69 49 10
 
 ---
 
-**Autor**: Edgar Redondo
-**Email**: edgarredondo@gmail.com
-**Migración**: Octubre 2025
-**Tema original**: Rara Academic (WordPress)
-**Tema Hugo**: Personalizado (edgarredondo)
+Migrado de WordPress a Hugo en Octubre 2025
