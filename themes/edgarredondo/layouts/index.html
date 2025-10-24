@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{ range .Paginator.Pages }}
+<article class="post type-post status-publish format-standard has-post-thumbnail hentry">
+    <header class="entry-header">
+        <h2 class="entry-title" itemprop="headline">
+            <a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a>
+        </h2>
+        <div class="entry-meta">
+            <span class="byline" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                BY <span class="authors vcard"><span class="url fn n">Edgar Redondo</span></span>
+            </span>
+            <span class="posted-on">
+                <a href="{{ .Permalink }}" rel="bookmark">
+                    <time class="entry-date published updated" datetime="{{ .Date.Format "2006-01-02" }}">
+                        {{ .Date.Day }} {{ index (slice "enero" "febrero" "marzo" "abril" "mayo" "junio" "julio" "agosto" "septiembre" "octubre" "noviembre" "diciembre") (sub .Date.Month 1) }}, {{ .Date.Year }}
+                    </time>
+                </a>
+            </span>
+        </div>
+    </header>
+    
+    {{ if .Params.featured_image }}
+    <a class="post-thumbnail" href="{{ .Permalink }}">
+        <img alt="{{ .Title }}" src="{{ .Params.featured_image }}" class="attachment-rara-academic-with-sidebar size-rara-academic-with-sidebar wp-post-image" />
+    </a>
+    {{ end }}
+    
+    <div class="entry-content" itemprop="text">
+        <p>{{ .Summary | truncate 200 }}</p>
+    </div>
+    
+    <div class="entry-footer">
+        <a href="{{ .Permalink }}" class="read-more">Read More</a>
+    </div>
+</article>
+{{ end }}
+
+{{ if gt .Paginator.TotalPages 1 }}
+<nav class="pagination">
+    {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}" class="prev">« Anterior</a>
+    {{ end }}
+    {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}" class="next">Siguiente »</a>
+    {{ end }}
+</nav>
+{{ end }}
+{{ end }}

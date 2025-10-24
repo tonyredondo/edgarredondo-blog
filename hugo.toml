@@ -1,0 +1,19 @@
+baseURL = '/'
+languageCode = 'es-es'
+relativeURLs = true
+title = 'Edgar Redondo'
+theme = 'edgarredondo'
+
+[params]
+  description = 'Educador. Divulgador científico. Amante de la Filosofía'
+  author = 'Edgar Redondo'
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS"]

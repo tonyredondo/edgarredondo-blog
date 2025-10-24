@@ -1,0 +1,39 @@
+{{ define "main" }}
+<article class="post type-post status-publish format-standard has-post-thumbnail hentry">
+    <header class="entry-header">
+        <h1 class="entry-title" itemprop="headline">{{ .Title }}</h1>
+        <div class="entry-meta">
+            <span class="byline" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                BY <span class="authors vcard"><span class="url fn n">Edgar Redondo</span></span>
+            </span>
+            <span class="posted-on">
+                <time class="entry-date published updated" datetime="{{ .Date.Format "2006-01-02" }}">
+                    {{ .Date.Day }} {{ index (slice "enero" "febrero" "marzo" "abril" "mayo" "junio" "julio" "agosto" "septiembre" "octubre" "noviembre" "diciembre") (sub .Date.Month 1) }}, {{ .Date.Year }}
+                </time>
+            </span>
+        </div>
+    </header>
+    
+    {{ if .Params.featured_image }}
+    <div class="post-thumbnail">
+        <img alt="{{ .Title }}" src="{{ .Params.featured_image }}" />
+    </div>
+    {{ end }}
+    
+    <div class="entry-content" itemprop="text">
+        {{ .Content }}
+    </div>
+    
+    {{ if .Params.categories }}
+    <footer class="entry-footer">
+        <span class="cat-links">
+            Categorías: 
+            {{ range $index, $category := .Params.categories }}
+                {{ if $index }}, {{ end }}
+                <a href="/categories/{{ $category | urlize }}/">{{ $category }}</a>
+            {{ end }}
+        </span>
+    </footer>
+    {{ end }}
+</article>
+{{ end }}

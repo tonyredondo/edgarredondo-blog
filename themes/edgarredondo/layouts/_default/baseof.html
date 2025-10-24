@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.description }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Bitter:700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/responsive.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+</head>
+<body>
+    {{ partial "header.html" . }}
+    
+    <div id="content" class="site-content">
+        <div class="container">
+            <div id="primary" class="content-area">
+                <main id="main" class="site-main" role="main">
+                    {{ block "main" . }}{{ end }}
+                </main>
+            </div>
+            
+            {{ partial "sidebar.html" . }}
+        </div>
+    </div>
+    
+    {{ partial "footer.html" . }}
+</body>
+</html>

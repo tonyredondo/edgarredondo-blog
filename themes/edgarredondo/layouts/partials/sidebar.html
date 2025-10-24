@@ -1,0 +1,26 @@
+<aside class="widget-area" id="secondary" itemscope itemtype="http://schema.org/WPSideBar" role="complementary">
+    <section class="widget widget_media_image">
+        <img alt="Edgar Redondo" src="/images/edgar.jpg" style="max-width: 100%; height: auto;" />
+    </section>
+    
+    <section class="widget widget_search">
+        <form action="/search/" class="search-form" method="get" role="search">
+            <label>
+                <span class="screen-reader-text">Buscar:</span>
+                <input class="search-field" name="q" placeholder="Buscar …" type="search" value="" />
+            </label>
+            <input class="search-submit" type="submit" value="Buscar" />
+        </form>
+    </section>
+    
+    <section class="widget widget_categories">
+        <h2 class="widget-title">Temas</h2>
+        <ul>
+            {{ range .Site.Taxonomies.categories }}
+            <li class="cat-item">
+                <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </section>
+</aside>
