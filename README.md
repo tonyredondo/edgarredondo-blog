@@ -106,3 +106,38 @@ Contenido © Edgar Redondo. Todos los derechos reservados.
 ---
 
 Migrado de WordPress a Hugo en Octubre 2025
+
+## 🔧 Configuración de GitHub Pages
+
+Este repositorio incluye un workflow de GitHub Actions que automáticamente construye y despliega el sitio en GitHub Pages cada vez que haces push a la rama `master`.
+
+### Activar GitHub Pages
+
+1. Ve a la configuración del repositorio: https://github.com/tonyredondo/edgarredondo-blog/settings/pages
+2. En **Source**, selecciona **GitHub Actions**
+3. El workflow se ejecutará automáticamente en el próximo push
+4. El sitio estará disponible en: https://tonyredondo.github.io/edgarredondo-blog/
+
+### Workflow Automático
+
+El archivo `.github/workflows/hugo.yml` se encarga de:
+- ✅ Instalar Hugo v0.146.0
+- ✅ Construir el sitio con `hugo --minify`
+- ✅ Desplegar automáticamente en GitHub Pages
+- ✅ Ejecutarse en cada push a `master`
+
+### Dominio Personalizado
+
+Para usar tu propio dominio (edgarredondo.com):
+
+1. En la configuración de Pages, añade tu dominio personalizado
+2. Configura los registros DNS en tu proveedor:
+   ```
+   CNAME: www.edgarredondo.com → tonyredondo.github.io
+   A: edgarredondo.com → 185.199.108.153
+   A: edgarredondo.com → 185.199.109.153
+   A: edgarredondo.com → 185.199.110.153
+   A: edgarredondo.com → 185.199.111.153
+   ```
+3. GitHub Pages configurará automáticamente SSL
+
