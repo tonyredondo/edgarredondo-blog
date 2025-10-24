@@ -1,0 +1,82 @@
+# Workflow para construir y desplegar el sitio Hugo en GitHub Pages
+name: Deploy Hugo site to Pages
+
+on:
+  # Se ejecuta en push a la rama master
+  push:
+    branches:
+      - master
+
+  # Permite ejecutar manualmente desde la pestaña Actions
+  workflow_dispatch:
+
+# Establece permisos del GITHUB_TOKEN para permitir despliegue en Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Permite solo un despliegue concurrente
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+# Trabajos por defecto para bash
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  # Job de construcción
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.146.0
+    steps:
+      - name: Instalar Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
+      
+      - name: Instalar Dart Sass
+        run: sudo snap install dart-sass
+      
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      
+      - name: Configurar Pages
+        id: pages
+        uses: actions/configure-pages@v4
+      
+      - name: Instalar dependencias de Node.js
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      
+      - name: Construir con Hugo
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENVIRONMENT: production
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+      
+      - name: Subir artefacto
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  # Job de despliegue
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Desplegar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
