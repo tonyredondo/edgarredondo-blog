@@ -1,6 +1,5 @@
-baseURL = '/'
+baseURL = 'https://tonyredondo.github.io/edgarredondo-blog/'
 languageCode = 'es-es'
-relativeURLs = true
 title = 'Edgar Redondo'
 theme = 'edgarredondo'
 
