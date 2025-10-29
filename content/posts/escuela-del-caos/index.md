@@ -1,6 +1,6 @@
 ---
 title: "La Escuela del Caos y la Parálisis Paradigmática"
-date: 2025-10-24T10:00:00+01:00
+date: 2025-10-29T10:00:00+01:00
 draft: false
 categories: ["Educacion", "Filosofía"]
 featured_image: "/images/escuela-del-caos/portada.png"
