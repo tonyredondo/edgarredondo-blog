@@ -8,12 +8,6 @@ featured_image: "/images/escuela-del-caos/portada.png"
 
 **Una comedia educativa y metodológica en varios actos**
 
-*Autor: Edgar Alfredo Redondo Calderón*
-
-![La Escuela del Caos y la Parálisis Paradigmática](/images/escuela-del-caos/portada.png)
-
----
-
 ## Acto I: El misterio del eterno recreo.
 
 Era un lunes cualquiera en la *"Escuela Experimental del Saber Compartido"*, aunque de "experimental" solo le quedaba el nombre, es que realmente allí reinaba el caos.
