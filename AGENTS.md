@@ -9,12 +9,13 @@ Static blog site built with Hugo. Content lives in Markdown, with a custom theme
 
 ## Quick commands
 - Dev server: `hugo server`
-- Production build: `hugo --gc --minify`
-- GitHub Pages build (matches workflow): `hugo --gc --minify --baseURL <pages-url>/`
+- Production build: `hugo --gc --minify --environment production`
+- GitHub Pages build (matches workflow): `hugo --gc --minify --environment development`
 - Tests: none (use the build as a smoke check)
 
 ## Structure
-- `hugo.toml`: site config (baseURL, language, pagination, taxonomies).
+- `config/_default/hugo.toml`: base site config (dev baseURL, language, pagination, taxonomies).
+- `config/production/hugo.toml`: production overrides (baseURL).
 - `content/posts/`: all articles as Markdown.
 - `static/images/`: all post images and author image (served at `/images/...`).
 - `themes/edgarredondo/`: custom theme (layouts + CSS).

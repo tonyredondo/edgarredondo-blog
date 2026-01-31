@@ -124,7 +124,7 @@ Clonar el sitio WordPress en Hugo con una **paridad visual muy cercana** (se vea
    - Comparar conteo de assets descargados vs URLs unicas del crawl.
 
 ### Paso 2: Configuracion de URLs y taxonomias (solo para navegacion funcional)
-1. En `hugo.toml`:
+1. En `config/_default/hugo.toml`:
    - Configurar permalinks/taxonomies **solo** en la medida en que la navegacion visible coincida con WP.
    - No es obligatorio que las URLs sean identicas, pero si debe navegarse a los mismos contenidos desde los menus y enlaces.
 2. Normalizacion de slugs:

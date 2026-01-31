@@ -89,7 +89,9 @@ edgarredondo-blog/
 │   └── images/             # Imágenes
 ├── themes/
 │   └── edgarredondo/       # Tema personalizado
-├── hugo.toml               # Configuración
+├── config/
+│   ├── _default/hugo.toml  # Configuración base (dev)
+│   └── production/hugo.toml# Overrides para producción
 └── README.md
 ```
 
@@ -140,4 +142,3 @@ Para usar tu propio dominio (edgarredondo.com):
    A: edgarredondo.com → 185.199.111.153
    ```
 3. GitHub Pages configurará automáticamente SSL
-
