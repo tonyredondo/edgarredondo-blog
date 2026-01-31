@@ -10,7 +10,7 @@ Static blog site built with Hugo. Content lives in Markdown, with a custom theme
 ## Quick commands
 - Dev server: `hugo server`
 - Production build: `hugo --gc --minify --environment production`
-- GitHub Pages build (matches workflow): `hugo --gc --minify --environment development`
+- GitHub Pages build (matches workflow): `hugo --gc --minify --environment production`
 - Tests: none (use the build as a smoke check)
 
 ## Structure

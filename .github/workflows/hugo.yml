@@ -57,7 +57,7 @@ jobs:
       - name: Construir con Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
-          HUGO_ENVIRONMENT: development
+          HUGO_ENVIRONMENT: production
         run: |
           hugo \
             --gc \
