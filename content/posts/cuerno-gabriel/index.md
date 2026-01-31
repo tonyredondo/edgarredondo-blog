@@ -1,10 +1,16 @@
 ---
-title: "El cuerno de Gabriel: el volumen del cono es finito, pero la superficie es infinita"
-date: 2017-10-21
+title: 'El cuerno de Gabriel: el volumen del cono es finito, pero la superficie es
+  infinita'
+date: '2017-10-21'
 draft: false
-featured_image: "/images/cuerno-gabriel/image_1.jpg"
-categories:
-  - Matemáticas
+featured_image: /wp-content/uploads/2017/10/arcangel_gabriel.jpg
+slug: cuerno-gabriel
+description: El cuerno de Gabriel o trompeta de Torricelli es una figura geométrica que
+  tiene la característica de poseer una superficie infinita pero un volumen finito.
+category:
+- Matemáticas
+tag:
+- matemáticas
 ---
 
 El 

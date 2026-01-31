@@ -1,11 +1,17 @@
 ---
-title: "La Conjetura de Collatz: Un agujero negro matemático"
-date: 2017-10-13
+title: 'La Conjetura de Collatz: Un agujero negro matemático'
+date: '2017-10-13'
 draft: false
-featured_image: "/images/la-conjetura-de-collatz/image_1.png"
-categories:
-  - Matemáticas
-  - Sin categoría
+featured_image: /wp-content/uploads/2017/10/conjetura_collatz_principal-730x330.jpg
+slug: la-conjetura-de-collatz
+description: La Conjetura de Collatz, aún no probada, resulta un ejercicio apasionante
+  para que niños y jóvenes descubran la belleza de las matemáticas
+category:
+- Matemáticas
+- Sin categoría
+tag:
+- ejercicios
+- matemáticas
 ---
 
 Al igual que en Física nos encontramos con agujeros negros de los que nada puede escapar de ellos, ni siquiera la luz, también en 

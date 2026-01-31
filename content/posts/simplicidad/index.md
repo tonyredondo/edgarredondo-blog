@@ -1,10 +1,14 @@
 ---
-title: "La Simplicidad"
-date: 2018-05-16
+title: La Simplicidad
+date: '2018-05-16'
 draft: false
-featured_image: "/images/simplicidad/image_1.png"
-categories:
-  - Sin categoría
+featured_image: /wp-content/uploads/2018/05/simplicidad1.png
+slug: simplicidad
+description: No existe una evolución natural hacia la simplicidad, ésta no sucede
+  porque sí, en la práctica las cosas se vuelven cada vez más complicadas. Los procedimientos
+  y el funcionamiento de las cosas son cada vez más complejos.
+category:
+- Sin categoría
 ---
 
 **Nunca he entendido otro modo de hacer intelectualidad que**

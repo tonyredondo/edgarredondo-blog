@@ -1,10 +1,13 @@
 ---
-title: "Los dragones en Juego de Tronos: la ciencia de lo fantástico"
-date: 2017-09-03
+title: 'Los dragones en Juego de Tronos: la ciencia de lo fantástico'
+date: '2017-09-03'
 draft: false
-featured_image: "/images/juego-de-tronos-ciencia-fantastico/image_1.jpg"
-categories:
-  - Cine y series
+featured_image: /wp-content/uploads/2017/09/gameofthrones-730x330.jpg
+slug: juego-de-tronos-ciencia-fantastico
+description: Juego de Tronos nos transporta a un mundo de fantasía con dragones, mágia,
+  héroes y antihéroes pero ¿Como se ve este mundo desde una perspectiva científica?
+category:
+- Cine y series
 ---
 
 ### *El lema de la casa Stark es: «Winter Is Coming», (Se acerca el invierno)*
@@ -38,4 +41,4 @@ Sin embargo, esas creencias no le hacen daño a nuestra supervivencia biológica
 **el mito del dragón parece inmortal.  **
 En definitiva, claro que este artículo será pura especulación, en cuanto a que los dragones no existen, pero lo usaremos para descubrir un poco de la ciencia que hay en Drogon, Rhaegal y Vyserion, los hijos de la bella Daenerys Targaryen de Juego de Tronos…. De la que nos queda sólo una última temporada (8va).
 Seguir leyendo → 
-[Recorrido por la historia de los 3 dragones en Juego de Tronos](http://edgarredondo.com/recorrido-la-historia-los-3-dragones-juego-tronos/)
+[Recorrido por la historia de los 3 dragones en Juego de Tronos](/historia-dragones-juego-tronos/)

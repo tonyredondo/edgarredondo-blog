@@ -1,11 +1,14 @@
 ---
-title: "CUESTIONES DE LA FILOSOFÍA CIENTÍFICA"
-date: 2017-09-21
+title: CUESTIONES DE LA FILOSOFÍA CIENTÍFICA
+date: '2017-09-21'
 draft: false
-featured_image: "/images/filosofia-cientifica/image_1.jpg"
-categories:
-  - Epistemología
-  - Filosofía
+featured_image: /wp-content/uploads/2017/06/epistemologia-730x330.png
+slug: filosofia-cientifica
+description: Recorremos los conceptos de ciencia y filosofía hasta llegar a la llamada
+  &quot;Filosofía científica&quot; y sus elementos más caracterísiticos.
+category:
+- Epistemología
+- Filosofía
 ---
 
 ## Ciencia

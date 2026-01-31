@@ -1,12 +1,15 @@
 ---
-title: "El movimiento para Aristóteles"
-date: 2017-12-16
+title: El movimiento para Aristóteles
+date: '2017-12-16'
 draft: false
-featured_image: "/images/movimiento-aristoteles/image_1.png"
-categories:
-  - Epistemología
-  - Filosofía
-  - Física
+featured_image: /wp-content/uploads/2017/12/frase-el-movimiento-no-existe-fuera-de-las-cosas-pues-todo-lo-que-cambia-o-cambia-en-el-orden-de-la-aristoteles-135248-730x330.jpg
+slug: movimiento-aristoteles
+category:
+- Epistemología
+- Filosofía
+- Física
+tag:
+- filosofía
 ---
 
 ![Imagen 1](/images/movimiento-aristoteles/image_1.png)
@@ -19,7 +22,7 @@ En su “
 *Física”*
 , cada uno de los elementos tiene un “lugar natural” adecuado, determinado por su peso relativo o “gravedad específica”. Cada elemento se mueve, de forma natural, en línea recta —la tierra hacia abajo, el fuego hacia arriba— hacia el lugar que le corresponde, en el que se detendrá una vez alcanzado, de lo que resulta que el movimiento terrestre siempre es lineal y siempre acaba por detenerse.
 Por otra parte, 
-[Aristóteles](http://edgarredondo.com/fisica-aristotelica/)
+[Aristóteles](/fisica-aristotelica/)
  afirmaba que el movimiento requería de un medio, él no podía comprender las ideas del vacío. Para él, el movimiento de un objeto era inversamente proporcional a la densidad del medio. Cuanto más tenue fuese el medio, más rápido sería el movimiento. Aristóteles creía que si un objeto se moviera en el vacío debía desplazarse en forma infinitamente rápida, lo cual simplemente no ocurría, de forma tal que la materia tenía que rellenar todo espacio vacío.
 Así también el gran filósofo echó de mano su sentido común y concluyó que, como los objetos que ve a su alrededor acaban deteniéndose, eso debe ser lo que sucede siempre, por ello era de la opinión de que los objetos y la materia solo se podían desplazar siempre y cuando una
 ** forma de energía  los estuviera empujando**
@@ -52,7 +55,7 @@ Como para él toda magnitud es continua, es decir: se pueden establecer en ella 
 ![Imagen 6](/images/movimiento-aristoteles/image_6.png)
 ### **El problema del cambio               **
 Como hemos dicho, Aristóteles fue un pensador con cierto espíritu 
-[empirista](http://edgarredondo.com/filosofia-cientifica/)
+[empirista](/filosofia-cientifica/)
  (pero sin ninguna experimentación tal como la conocemos hoy), y así se percató de que lo que nos rodea es una realidad diversa que se halla en continua y perpetua transformación. Por ello, el filósofo estagirita se avocó a encontrar una explicación del cómo y porqué de los cambios que ocurrían en el mundo.
 Así, Aristóteles distingue diversos tipos de cambio, según afecte a la sustancia o a los accidentes, o según sea producido de forma natural o artificial.
 **La primera explicación: La posibilidad del cambio**
@@ -90,7 +93,7 @@ Ahora bien debo aclarar que cuando Aristóteles dice que
 Debo también mencionar que aunque esta visión Aristotélica de “Materia y Forma” pareciera ingenua comparada con las teorías más recientes, lo cierto del caso es que hoy día el atomismo clásico parece insostenible. Ninguna de las partículas hoy conocidas o postuladas es ingenerable o indestructible. Todas pueden aniquilarse o crearse. En los 
 **Aceleradores de Partículas**
 , por ejemplo, cada día se aniquilan electrones y positrones por millones, y se crean hadrones (y, por supuesto, quarks) también por millones, y el sustrato de esas generaciones y destrucciones es algo parecido a la materia primera de Aristóteles Tal es así, que el reconocido 
-[Epistemólogo](http://edgarredondo.com/fundamentos-epistemologicos/)
+[Epistemólogo](/fundamentos-epistemologicos/)
  norteamericano 
 **Patríck Suppes**
  ha escrito:

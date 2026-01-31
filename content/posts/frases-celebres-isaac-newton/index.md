@@ -1,10 +1,16 @@
 ---
-title: "Frases célebres de Isaac Newton"
-date: 2017-06-19
+title: Frases célebres de Isaac Newton
+date: '2017-06-19'
 draft: false
-featured_image: "/images/frases-celebres-isaac-newton/image_1.jpg"
-categories:
-  - Frases célebres
+featured_image: /wp-content/uploads/2017/06/Isaac_Newton_signature_ws.svg_-730x330.png
+slug: frases-celebres-isaac-newton
+description: 'Explora las reflexiones de uno de los científicos más importantes de
+  la historia: Isaac Newton. Grandes frases que son también lecciones de vida y sabiduría'
+category:
+- Frases célebres
+tag:
+- frases
+- personajes
 ---
 
 Reflexionar sobre el discurso de algunos de

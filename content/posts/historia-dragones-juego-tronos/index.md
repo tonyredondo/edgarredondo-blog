@@ -1,10 +1,13 @@
 ---
-title: "Recorrido por la historia de los 3 dragones en Juego de Tronos"
-date: 2017-09-03
+title: Recorrido por la historia de los 3 dragones en Juego de Tronos
+date: '2017-09-03'
 draft: false
-featured_image: "/images/historia-dragones-juego-tronos/image_1.png"
-categories:
-  - Cine y series
+featured_image: /wp-content/uploads/2017/09/game-of-thrones-season-7-reveals-bigger-dragons-and-more-new-photos-730x330.jpg
+slug: historia-dragones-juego-tronos
+description: Recorremos los sucedido a los dragones, hijos de Daenerys de la Tormenta,
+  en estas 7 temporadas de Juego de Tronos
+category:
+- Cine y series
 ---
 
 Leer artículo anterior → 
@@ -46,4 +49,4 @@ Viserion es ahora el Dragón de Hielo, una bestia colosal, con ojos de un crista
 ![Imagen 2](/images/historia-dragones-juego-tronos/image_2.jpeg)
 ¿Será el nuevo Viserion más letal que Drogon y Raeghal juntos? ¿Cómo será vencido?… si es que puede ser derrotado. Venga, todo eso está por verse en la próxima y última temporada.
 Seguir leyendo 
-**→ [Dragonología: Biología y matemáticas de los dragones](http://edgarredondo.com/dragonologia-biologia-matematicas-dragones/)**
+**→ [Dragonología: Biología y matemáticas de los dragones](/dragonologia-biologia-matematicas-dragones/)**

@@ -1,11 +1,16 @@
 ---
-title: "Transhumanismo H+ y Epistemología"
-date: 2017-06-18
+title: Transhumanismo H+ y Epistemología
+date: '2017-06-18'
 draft: false
-featured_image: "/images/transhumanismo-epistemologia/image_1.png"
-categories:
-  - Filosofía
-  - Transhumanismo
+featured_image: /wp-content/uploads/2017/06/posthumanismo-620x330.png
+slug: transhumanismo-epistemologia
+description: Análisis del Transhumanismo H+ producto de la Singularidad Tecnológica
+  que se nos avecina y los cambios en el discurso epistemológico
+category:
+- Filosofía
+- Transhumanismo
+tag:
+- filosofía
 ---
 
 ***Del Homo Sapiens…. ***

@@ -1,15 +1,21 @@
 ---
-title: "FUNDAMENTOS EPISTEMOLÓGICOS: La Ontología, La Gnoseología y la Axiología."
-date: 2017-10-01
+title: 'FUNDAMENTOS EPISTEMOLÓGICOS: La Ontología, La Gnoseología y la Axiología.'
+date: '2017-10-01'
 draft: false
-featured_image: "/images/fundamentos-epistemologicos/image_1.jpg"
-categories:
-  - Epistemología
-  - Filosofía
+featured_image: /wp-content/uploads/2017/10/gnoseologia-730x330.png
+slug: fundamentos-epistemologicos
+description: Hoy abordamos la Ontología, la Gnoseología y la Axología, dimensiones
+  fundamentales en la construcción del conocimiento y cualquier investigación
+category:
+- Epistemología
+- Filosofía
+tag:
+- epistemología
+- filosofía
 ---
 
 Leer artículo anterior –> 
-[Cuestiones de la filosofía científica](http://edgarredondo.com/filosofia-cientifica/)
+[Cuestiones de la filosofía científica](/filosofia-cientifica/)
 ![Imagen 1](/images/fundamentos-epistemologicos/image_1.jpg)
 Evaristo Mendez
 Como dijimos, debe ser imperativo para todo investigador el apoyarse en algunos

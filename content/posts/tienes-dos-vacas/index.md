@@ -1,9 +1,13 @@
 ---
-title: "Tienes dos vacas, y con ellas explicas todo"
-date: 2018-06-27
+title: Tienes dos vacas, y con ellas explicas todo
+date: '2018-06-27'
 draft: false
-categories:
-  - Sin categoría
+slug: tienes-dos-vacas
+description: Se pueden explicar todos los sistemas económicos, políticos, empresariales,
+  filosóficos, literatos y científicos con la ayuda del &quot;tienes dos vacas&quot;.
+featured_image: /wp-content/uploads/2018/06/tienes-dos-vacas-730x330.jpg
+category:
+- Sin categoría
 ---
 
 Se pueden explicar todos los sistemas económicos, políticos, empresariales, filosóficos, literatos y científicos con la ayuda de dos vacas, como se demuestra a continuación con esta serie de memes muy realistas: 

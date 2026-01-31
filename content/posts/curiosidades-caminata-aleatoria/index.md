@@ -1,10 +1,16 @@
 ---
-title: "Curiosidades matemáticas: Caminatas aleatorias y probabilidad"
-date: 2017-10-07
+title: 'Curiosidades matemáticas: Caminatas aleatorias y probabilidad'
+date: '2017-10-07'
 draft: false
-featured_image: "/images/curiosidades-caminata-aleatoria/image_1.png"
-categories:
-  - Matemáticas
+featured_image: /wp-content/uploads/2017/10/buho_sonriendo-500x330.jpg
+slug: curiosidades-caminata-aleatoria
+description: Al vagar sin rumbo un borracho y un pajarillo ¿Quien crees que tiene
+  más posibilidades de volver? La respuesta y su explicación te sorprenderá
+category:
+- Matemáticas
+tag:
+- matemáticas
+- probabilidad
 ---
 
 ![Imagen 1](/images/curiosidades-caminata-aleatoria/image_1.png)

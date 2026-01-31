@@ -1,11 +1,14 @@
 ---
-title: "El Número de Euler o La Constante de Napier"
-date: 2017-11-22
+title: El Número de Euler o La Constante de Napier
+date: '2017-11-22'
 draft: false
-featured_image: "/images/numero-de-euler/image_1.png"
-categories:
-  - curiosidades
-  - Matemáticas
+featured_image: /wp-content/uploads/2017/11/napler-632x330.png
+slug: numero-de-euler
+description: Descubre el sorprendente y genial número “e” = 2.718281828459045... (El
+  Número de Euler o La Constante de Napier) que incluso inspira poemas
+category:
+- Curiosidades
+- Matemáticas
 ---
 
 Aunque no lo creas…La siguiente es una regla mnemotécnica para recordar el número “

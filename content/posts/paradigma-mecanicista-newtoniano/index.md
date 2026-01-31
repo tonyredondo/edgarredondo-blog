@@ -1,11 +1,12 @@
 ---
-title: "El Paradigma Mecanicista-Newtoniano y sus Criterios de Realidad"
-date: 2018-02-28
+title: El Paradigma Mecanicista-Newtoniano y sus Criterios de Realidad
+date: '2018-02-28'
 draft: false
-featured_image: "/images/paradigma-mecanicista-newtoniano/image_1.png"
-categories:
-  - Filosofía
-  - Matemáticas
+featured_image: /wp-content/uploads/2018/02/paradigma_mecanicistanewtoniano-730x330.png
+slug: paradigma-mecanicista-newtoniano
+category:
+- Filosofía
+- Matemáticas
 ---
 
 ![Imagen 1](/images/paradigma-mecanicista-newtoniano/image_1.png)
@@ -185,4 +186,4 @@ B) Que las magnitudes del sistema permanezcan inalterables, en cuyo caso la Ley 
 : Esto es, que toda magnitud que permanezca constante en un sistema, es en razón de que se ha anulado su efecto de variación. Explicado por el hecho de que las otras magnitudes del sistema que le acompañan tienen un mismo número de unidades, pero una ubicación distinta en el conjunto de magnitudes llamadas recta real y dividida convencionalmente por una magnitud llamada cero.
 Veamos a continuación la utilización de estas normas en el campo de enunciación de las conocidas leyes del movimiento de Isaac Newton (1642-1727) escritas en el clásico:
 ![Imagen 11](/images/paradigma-mecanicista-newtoniano/image_11.png)
-### Continuar con: [Newton y sus «Principios Matemáticos de la Filosofía Natural»… ¡Vaya nombre perfecto! ](http://edgarredondo.com/newton-principios-matematicos-filosofia-natural/)
+### Continuar con: [Newton y sus «Principios Matemáticos de la Filosofía Natural»… ¡Vaya nombre perfecto! ](/newton-principios-matematicos-filosofia-natural/)

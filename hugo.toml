@@ -2,6 +2,7 @@ baseURL = 'https://tonyredondo.github.io/edgarredondo-blog/'
 languageCode = 'es-es'
 title = 'Edgar Redondo'
 theme = 'edgarredondo'
+removePathAccents = true
 
 [params]
   description = 'Educador. Divulgador científico. Amante de la Filosofía'
@@ -11,8 +12,24 @@ theme = 'edgarredondo'
   pagerSize = 10
 
 [taxonomies]
-  category = "categories"
-  tag = "tags"
+  category = "category"
+  tag = "tag"
 
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "JSON"]
+
+[permalinks]
+  posts = "/:slug/"
+
+[related]
+  threshold = 80
+  includeNewer = true
+  toLower = true
+
+[[related.indices]]
+  name = "tags"
+  weight = 100
+
+[[related.indices]]
+  name = "categories"
+  weight = 80

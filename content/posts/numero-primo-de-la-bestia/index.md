@@ -1,11 +1,16 @@
 ---
-title: "El Número Primo de la Bestia"
-date: 2017-10-27
+title: El Número Primo de la Bestia
+date: '2017-10-27'
 draft: false
-featured_image: "/images/numero-primo-de-la-bestia/image_1.png"
-categories:
-  - curiosidades
-  - Matemáticas
+featured_image: /wp-content/uploads/2017/10/demon-730x330.png
+slug: numero-primo-de-la-bestia
+description: Descubre la parte más oscura de las Matemáticas este Halloween y acompáñanos
+  por la historia del Número de Belphegor o Número de la Bestia
+category:
+- Curiosidades
+- Matemáticas
+tag:
+- matemáticas
 ---
 
 ![Imagen 1](/images/numero-primo-de-la-bestia/image_1.png)

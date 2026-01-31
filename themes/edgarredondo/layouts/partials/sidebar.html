@@ -1,13 +1,13 @@
 <aside class="widget-area" id="secondary" itemscope itemtype="http://schema.org/WPSideBar" role="complementary">
     <section class="widget widget_media_image">
-        <img alt="Edgar Redondo" src="{{ printf "%s%s" .Site.BaseURL "images/edgar.jpg" }}" style="max-width: 100%; height: auto;" />
+        <img alt="Edgar Redondo" src="{{ "wp-content/uploads/2017/06/edgar-276x300.jpg" | relURL }}" srcset="{{ "wp-content/uploads/2017/06/edgar-276x300.jpg" | relURL }} 276w, {{ "wp-content/uploads/2017/06/edgar-e1497866031499.jpg" | relURL }} 300w" sizes="(max-width: 276px) 100vw, 276px" style="max-width: 100%; height: auto;" />
     </section>
     
     <section class="widget widget_search">
-        <form action="/search/" class="search-form" method="get" role="search">
+        <form action="{{ "search/" | relURL }}" class="search-form" method="get" role="search">
             <label>
                 <span class="screen-reader-text">Buscar:</span>
-                <input class="search-field" name="q" placeholder="Buscar …" type="search" value="" />
+                <input class="search-field" name="s" placeholder="Buscar …" type="search" value="" />
             </label>
             <input class="search-submit" type="submit" value="Buscar" />
         </form>
@@ -16,10 +16,34 @@
     <section class="widget widget_categories">
         <h2 class="widget-title">Temas</h2>
         <ul>
-            {{ range .Site.Taxonomies.categories }}
+            {{ $categories := slice
+                (dict "title" "Biología" "slug" "biologia")
+                (dict "title" "Cine y series" "slug" "cine-y-series")
+                (dict "title" "Curiosidades" "slug" "curiosidades")
+                (dict "title" "Educación" "slug" "educacion")
+                (dict "title" "Epistemología" "slug" "epistemologia")
+                (dict "title" "Filosofía" "slug" "filosofia")
+                (dict "title" "Física" "slug" "fisica")
+                (dict "title" "Frases célebres" "slug" "frases-celebres")
+                (dict "title" "Lingüística" "slug" "linguistica")
+                (dict "title" "Lógica" "slug" "logica")
+                (dict "title" "Matemáticas" "slug" "matematicas")
+                (dict "title" "Sin categoría" "slug" "sin-categoria")
+                (dict "title" "Transhumanismo" "slug" "transhumanismo")
+            }}
+            {{ range $categories }}
             <li class="cat-item">
-                <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+                <a href="{{ printf "category/%s/" .slug | relURL }}">{{ .title }}</a>
             </li>
+            {{ end }}
+        </ul>
+    </section>
+
+    <section class="widget widget_recent_entries">
+        <h2 class="widget-title">Últimos artículos</h2>
+        <ul>
+            {{ range first 5 (where .Site.RegularPages.ByDate.Reverse "Section" "posts") }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
             {{ end }}
         </ul>
     </section>

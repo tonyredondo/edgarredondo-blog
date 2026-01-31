@@ -1,10 +1,16 @@
 ---
-title: "Los caprichos de la Diosa Fortuna"
-date: 2019-01-26
+title: Los caprichos de la Diosa Fortuna
+date: '2019-01-26'
 draft: false
-featured_image: "/images/caprichos-de-la-diosa-fortuna/image_1.png"
-categories:
-  - Filosofía
+featured_image: /wp-content/uploads/2019/01/fortuna-730x330.jpg
+slug: caprichos-de-la-diosa-fortuna
+description: El tema de la suerte siempre ha estado presente a lo largo de la historia.
+  La vulnerabilidad y la incertidumbre son rasgos cardinales de la humanidad.
+category:
+- Filosofía
+tag:
+- probabilidad
+- suerte
 ---
 
 Para comenzar quiero poner en claro que en este artículo no quiero llegar a la clásica confrontación entre “Deterministas” e “Indeterministas” acerca de si existe, o no, el azar. Si crees que todo lo que ocurre es controlable si disponemos de la información adecuada, eso es 

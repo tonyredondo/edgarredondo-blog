@@ -1,10 +1,15 @@
 ---
-title: "Teoría General de Sistemas, Enfoque de Sistemas, Pensamiento   Sistémico, Sistemas Complejos, Caos y Simplicidad."
-date: 2018-03-25
+title: Teoría General de Sistemas, Enfoque de Sistemas, Pensamiento   Sistémico, Sistemas
+  Complejos, Caos y Simplicidad.
+date: '2018-03-25'
 draft: false
-featured_image: "/images/teoria-general-de-sistemas-enfoque-pensamiento/image_1.png"
-categories:
-  - Filosofía
+featured_image: /wp-content/uploads/2018/03/universo-718x330.png
+slug: teoria-general-de-sistemas-enfoque-pensamiento
+description: Todo apunta a que la realidad no es una colección de elementos aislados,
+  sino una multidimensional, indivisible y compleja red de interconexiones. Por ello,
+  hoy día siempre que se habla de Sistemas se tiene en mente una totalidad
+category:
+- Filosofía
 ---
 
 Una frase muy publicitada hoy día es: “
@@ -367,4 +372,4 @@ Dichas partes mostrarán resistencia al cambio porque ellas también tendrán qu
 .
 Por ejemplo si queremos cambiar uno de nuestros hábitos, los cuales son parte de nuestro Sistema de Comportamientos y aunque no nos gusten están conectados a muchas otras partes de nuestras vidas, por ello poner mucho empeño en modificarlo a él no sirve de nada. No es el hábito o conducta concreta la que tiene tanta fuerza, la resistencia proviene de todas las partes con las que está conectado, no tiramos sólo de él, tiramos de todos los demás hábitos, es decir, no son los individuos quienes plantean las dificultades, es el propio Sistema. No puede haber estabilidad sin resistencia, son las dos caras de una misma moneda.
 Continúa leyendo el artículo 
-[aquí](http://edgarredondo.com/sistemas-complejidad-tipo-1-teoria-del-caos-complejidad-tipo-2/)
+[aquí](/sistemas-complejidad-tipo-1-teoria-del-caos-complejidad-tipo-2/)

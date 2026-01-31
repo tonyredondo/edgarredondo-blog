@@ -1,10 +1,15 @@
 ---
-title: "¿Por qué NO estamos cometiendo Falacias en nuestro razonar?"
-date: 2019-03-02
+title: ¿Por qué NO estamos cometiendo Falacias en nuestro razonar?
+date: '2019-03-02'
 draft: false
-featured_image: "/images/no-falacias-razonar/image_1.png"
-categories:
-  - Filosofía
+featured_image: /wp-content/uploads/2019/03/cabecera_falacias-587x330.png
+slug: no-falacias-razonar
+description: Ni nuestra mente, ni nuestro raciocinio, son dignos de una confianza
+  absoluta, pero a pesar de ello... Es lo mejor que tenemos para poder vivir.
+category:
+- Filosofía
+tag:
+- lógica
 ---
 
 Aunque la mente humana es una maravilla, sin embargo no es perfecta, lo cual se pone de manifiesto si consideramos lo volátil y mentirosa que es nuestra memoria, lo sesgado que es nuestro pensamiento, que a su vez se ve muy afectado por nuestras emociones. En definitiva, podemos afirmar que ni nuestra mente, ni nuestro raciocinio, son dignos de una confianza absoluta, pero a pesar de ello… Es lo mejor que tenemos para poder vivir tratando de sortear la incertidumbre que nos acecha.
@@ -121,7 +126,7 @@ sometido a esa Regla (Estos granos son de esta bolsa) para establecer un
 **Resultado**
  que es: Estos granos son blancos. Acá el Heurístico empleado es el de Representatividad, categorizando, de esa forma, el resultado obtenido.
 El Razonamiento, o inferencia, Deductivo, propio del 
-[Enfoque Epistemológico Racionalista](http://edgarredondo.com/fundamentos-epistemologicos/)
+[Enfoque Epistemológico Racionalista](/fundamentos-epistemologicos/)
 , de por sí no da nueva información, estamos en el reino de lo que debe ser, sólo son “analíticos” o explicativos, con él vamos a un mayor detalle,, pero realmente no hay un nuevo descubrimiento.
 En ciencia los combinan con leyes causales (utilizadas en la Premisa Mayor) para hacer anticipaciones, o predicciones. Además, nos permite preservar la verdad, en el sentido de que si tenemos el cuidado de alimentarlo con premisas verdaderas y el razonamiento es válido la conclusión será siempre verdadera. Es decir, nos garantiza la verdad de la conclusión, generando de esa forma, conocimientos confiables. Por el contrario, si las premisas son falsas puede ocurrir cualquier cosa.
 Popper, a través, del 

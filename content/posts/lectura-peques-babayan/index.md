@@ -1,14 +1,21 @@
 ---
-title: "La Lectura como una Fiesta de Conocimiento para los Pequeños.  La Propuesta Babayán."
-date: 2019-04-05
+title: La Lectura como una Fiesta de Conocimiento para los Pequeños.  La Propuesta
+  Babayán.
+date: '2019-04-05'
 draft: false
-featured_image: "/images/lectura-peques-babayan/image_1.jpg"
-categories:
-  - Sin categoría
+featured_image: /wp-content/uploads/2019/04/picsea-357048-unsplash-730x330.jpg
+slug: lectura-peques-babayan
+description: Durante la primera infancia, la lectura es una de las garantías para
+  la formación de los futuros ciudadanos ¡Los niños que leen aprenden más y mejor!
+category:
+- Sin categoría
+tag:
+- literatura
+- niños
 ---
 
 La lectura es una parte fundamental en la formación integral de las personas. Su práctica: nos da placer, nos despierta la mente, nos interpela, nos enriquece, nos educa al desarrollar destrezas para la adquisición de saberes, impulsa competencias imprescindibles para la vida de hoy día, tales como: la creatividad, la educación emocional y en valores, así como también en disciplinas más académicas como la Lengua, la Geografía, o la 
-[Física](http://edgarredondo.com/fisica-aristotelica/)
+[Física](/fisica-aristotelica/)
 , incluso nos faculta para mejorar nuestras destrezas digitales. En fin, la lectura nos permite avanzar en el proceso de culturización.
 Aunque es muy cierto que todos practicamos la lectura continuamente (Un ejemplo de ello es lo que estás haciendo en este momento) ya que gústenos o no, somos lectores, independientemente de que las palabras, frases, o escritos, que se nos pongan al frente de nuestros ojos tengan, o no, el contenido que buscamos. Sin embargo, ese tipo de lectura no nos hace lectores competentes, es que para alcanzar ese status debemos no sólo descifran los códigos y comprender los mensajes… sino que, además, debemos ser críticos con ellos.
 Es que el contacto temprano con la palabra, en todas sus posibilidades expresivas, es la llave del conocimiento, y supone la apertura al mundo de los afectos, el alimento emocional fundamental para la construcción del ser humano. Es por ello que durante la primera infancia, 

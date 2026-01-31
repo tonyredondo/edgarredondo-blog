@@ -1,10 +1,15 @@
 ---
-title: "La paradoja de Banach-Tarski"
-date: 2018-01-11
+title: La paradoja de Banach-Tarski
+date: '2018-01-11'
 draft: false
-featured_image: "/images/la-paradoja-banach-tarski/image_1.png"
-categories:
-  - Sin categoría
+featured_image: /wp-content/uploads/2018/01/paradoja.jpg
+slug: la-paradoja-banach-tarski
+description: la Paradoja de Banach-Tarski es, hoy por hoy, uno de los teoremas más
+  extraños de la matemática moderna, y no es para menos el hecho de que una esfera
+  se puede descomponer en conjuntos de aspecto peculiar, después de lo cual estos
+  conjuntos pueden ser recombinados para formar dos esferas.
+category:
+- Sin categoría
 ---
 
 Las paradojas son atractivas porque desafían la intuición y por ello han ganado notoriedad, por derecho propio, como una curiosidad.

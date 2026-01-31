@@ -1,11 +1,14 @@
 ---
-title: "¿Cuántos segundos tiene el “Reto de 6 las Semanas”?"
-date: 2017-11-12
+title: ¿Cuántos segundos tiene el “Reto de 6 las Semanas”?
+date: '2017-11-12'
 draft: false
-featured_image: "/images/cuantos-segundos-reto-6-las-semanas/image_1.png"
-categories:
-  - curiosidades
-  - Matemáticas
+featured_image: /wp-content/uploads/2017/11/factorial-730x275.jpg
+slug: cuantos-segundos-reto-6-las-semanas
+description: Hoy usamos las matemáticas, específicamente los factoriales para calcular
+  cómo de posible es perder 6 kilos en 6 semanas
+category:
+- Curiosidades
+- Matemáticas
 ---
 
 En matemática,

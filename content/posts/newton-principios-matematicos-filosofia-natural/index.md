@@ -1,10 +1,12 @@
 ---
-title: "Newton y sus «Principios Matemáticos de la Filosofía Natural»… ¡Vaya nombre perfecto!"
-date: 2018-02-28
+title: Newton y sus «Principios Matemáticos de la Filosofía Natural»… ¡Vaya nombre
+  perfecto!
+date: '2018-02-28'
 draft: false
-featured_image: "/images/newton-principios-matematicos-filosofia-natural/image_1.png"
-categories:
-  - Sin categoría
+featured_image: /wp-content/uploads/2018/02/segunda_newton-639x330.png
+slug: newton-principios-matematicos-filosofia-natural
+category:
+- Sin categoría
 ---
 
 ## Primera Ley de Newton

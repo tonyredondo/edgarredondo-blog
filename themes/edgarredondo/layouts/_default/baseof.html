@@ -4,27 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.description }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Bitter:700">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "wp-content/themes/rara-academic/css/font-awesome.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "wp-content/themes/rara-academic/css/meanmenu.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "wp-content/themes/rara-academic/css/owl.carousel.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "wp-content/plugins/contextual-related-posts/css/default-style.css" | relURL }}">
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
     <link rel="stylesheet" href="{{ "css/responsive.css" | relURL }}">
     <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
 </head>
-<body>
-    {{ partial "header.html" . }}
-    
-    <div id="content" class="site-content">
-        <div class="container">
-            <div id="primary" class="content-area">
-                <main id="main" class="site-main" role="main">
-                    {{ block "main" . }}{{ end }}
-                </main>
+{{- $bodyClasses := slice "right-sidebar" -}}
+{{- $kind := .Kind -}}
+{{- if eq $kind "home" }}{{ $bodyClasses = $bodyClasses | append "home" "blog" }}{{ end -}}
+{{- if eq $kind "page" -}}
+    {{- if eq .Section "posts" -}}
+        {{- $bodyClasses = $bodyClasses | append "single" -}}
+    {{- else -}}
+        {{- $bodyClasses = $bodyClasses | append "page" -}}
+    {{- end -}}
+{{- end -}}
+{{- if eq $kind "section" }}{{ $bodyClasses = $bodyClasses | append "archive" }}{{ end -}}
+{{- if or (eq $kind "taxonomy") (eq $kind "term") }}{{ $bodyClasses = $bodyClasses | append "archive" "taxonomy" }}{{ end -}}
+{{- if eq .Type "search" }}{{ $bodyClasses = $bodyClasses | append "search" }}{{ end -}}
+<body class="{{ delimit $bodyClasses " " }}">
+    <div id="page" class="site">
+        {{ partial "header.html" . }}
+        
+        <div id="content" class="site-content">
+            <div class="container">
+                <div class="row">
+                    <div id="primary" class="content-area">
+                        <main id="main" class="site-main" role="main">
+                            {{ block "main" . }}{{ end }}
+                        </main>
+                    </div>
+                    
+                    {{ partial "sidebar.html" . }}
+                </div>
             </div>
-            
-            {{ partial "sidebar.html" . }}
         </div>
+        
+        {{ partial "footer.html" . }}
     </div>
-    
-    {{ partial "footer.html" . }}
+    <script src="{{ "wp-includes/js/jquery/jquery.js" | relURL }}"></script>
+    <script src="{{ "wp-includes/js/jquery/jquery-migrate.min.js" | relURL }}"></script>
+    <script src="{{ "wp-content/themes/rara-academic/js/jquery.meanmenu.min.js" | relURL }}"></script>
+    <script src="{{ "wp-content/themes/rara-academic/js/owl.carousel.min.js" | relURL }}"></script>
+    <script>var rara_academic_data = {"rtl":""};</script>
+    <script src="{{ "wp-content/themes/rara-academic/js/custom.min.js" | relURL }}"></script>
+    <script src="{{ "js/search.js" | relURL }}"></script>
 </body>
 </html>

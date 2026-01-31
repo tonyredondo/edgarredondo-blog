@@ -1,14 +1,18 @@
 ---
-title: "La física en Juego de Tronos: Cómo montar en dragón y las incoherencias espacio temporales en Poniente"
-date: 2017-09-03
+title: 'La física en Juego de Tronos: Cómo montar en dragón y las incoherencias espacio
+  temporales en Poniente'
+date: '2017-09-03'
 draft: false
-featured_image: "/images/fisica-juego-tronos/image_1.jpeg"
-categories:
-  - Cine y series
+featured_image: /wp-content/uploads/2017/09/mas_alla_del_muro-730x330.png
+slug: fisica-juego-tronos
+description: ¿Puede un dragón tan grande volar? ¿Es Gendry un primo lejado de flash?
+  ¿Cuanta fuerza necesita Daenerys para montar a Drogón? Descúbrelo aquí
+category:
+- Cine y series
 ---
 
 Leer el artículo anterior → 
-[Dragonología: Biología, y matemáticas de los dragones](http://edgarredondo.com/dragonologia-biologia-matematicas-dragones/)
+[Dragonología: Biología, y matemáticas de los dragones](/dragonologia-biologia-matematicas-dragones/)
 Realmente los dragones de 
 *“Juego de Tronos”*
  son enormes, y pensando un poco con la Física, tendrían que 
@@ -57,4 +61,4 @@ Paleontólogos estiman que el pterosaurio, con sus alas de unos 10 metros, pudo 
 Otro aspecto que quisiera mencionar es referente a lo mucho que dura el invierno…
 Es que nuestro mundo, todo normal, intrascendente y cotidiano, los inviernos duran lo que siempre han durado y luego se desvanecen para dar paso a mejores tiempos. Pero en “Juego de Tronos” los inviernos pueden durar decenas de años, incluso los niños pueden nacer, crecer y morir, sin conocer más que la oscuridad… la nieve y la ventisca. Además, recordemos que el Episodio uno de la primera Temporada se llamaba “Se acerca el invierno”, y fue emitido por allá, en abril del 2011, ahora estamos en el 2017 y apenas comienzan las heladas. Ahhhh, pero mejor eso se los dejo para sus reflexiones personales. Por mi parte pienso que en las películas y las series queremos emociones, por ello funcionan con la naturaleza de los sueños y debemos recordar que en el mundo onírico apagamos la crítica.
 Sigue leyendo →
-[Dragones, ética y estrategias para la guerra ](http://edgarredondo.com/dragones-etica-guerra/)
+[Dragones, ética y estrategias para la guerra ](/dragones-etica-guerra/)

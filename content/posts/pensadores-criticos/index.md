@@ -1,10 +1,18 @@
 ---
-title: "¡CONVIÉRTANSE EN PENSADORES CRÍTICOS! (No en criticones…)"
-date: 2019-08-30
+title: ¡CONVIÉRTANSE EN PENSADORES CRÍTICOS! (No en criticones...)
+date: '2019-08-30'
 draft: false
-featured_image: "/images/pensadores-criticos/image_1.jpg"
-categories:
-  - Filosofía
+featured_image: /wp-content/uploads/2019/08/the-thinker-692959_960_720-730x330.jpg
+slug: pensadores-criticos
+description: Aunque es cierto que todos podemos pensar, no todos lo hacemos correctamente.
+  Descubre cómo mejorar la calidad de tus razonamientos y se un pensador crítico
+category:
+- Filosofía
+tag:
+- epistemología
+- filosofía
+- pensamiento crítico
+- razonamiento
 ---
 
 Aunque la mente humana es una maravilla, no es perfecta, lo cual se pone de manifiesto si consideramos lo volátil y mentirosa que es nuestra memoria, lo sesgado que es nuestro pensamiento, que a su vez se ve muy afectado por nuestras emociones, así como nuestra engañosa percepción.
@@ -65,7 +73,7 @@ De acuerdo a la naturaleza de la relación entre sujeto y predicado las Proposic
 - **I ** Particular Afirmativa              Algunos hombres son inteligentes.
 - **0 ** Particular Negativa               Algunos hombres no son inteligentes.
 El problema de la verdad de las Proposiciones cae en el campo de la 
-[Semántica](http://edgarredondo.com/la-historia-de-tu-vida-la-llegada/)
+[Semántica](/la-historia-de-tu-vida-la-llegada/)
 .
 **EJERCICIOS DE PROPOSICIONES CATEGÓRICAS**
 1) ¿Cuáles de las siguientes oraciones son proposiciones categóricas?
@@ -90,7 +98,7 @@ Repasemos estas formas diferentes de razonar.
 ### El Razonamiento Deductivo
 ![Razonamiento deductivo](/images/pensadores-criticos/image_1.jpg)
 Es a través de la Lógica, iniciada por 
-[Aristóteles](http://edgarredondo.com/fisica-aristotelica/)
+[Aristóteles](/fisica-aristotelica/)
 , que conocemos las leyes del razonar correctamente. En efecto, la 
 **Lógica**
  estudia las inferencias, desde el punto de vista de su validez, la cual viene dada por la forma de los razonamientos (ya que 
@@ -208,7 +216,7 @@ A través de la
 **Lógica**
  conocemos las leyes del razonar deductivo correcto, ya que a ella le interesa la forma como se relacionan entre sí las partes de un discurso. Con su conocimiento estaremos mejor preparados para descubrir y rebatir las ideas erróneas que aparecen en discusiones, debates, artículos, etc.
 El Razonamiento, o inferencia, Deductivo es propio del 
-[Enfoque Epistemológico Racionalista](http://edgarredondo.com/fundamentos-epistemologicos/)
+[Enfoque Epistemológico Racionalista](/fundamentos-epistemologicos/)
 . Con él vamos a un mayor detalle, pero realmente no hay un nuevo descubrimiento, de por sí, no da nueva información.
 **Popper**
 , a través, del método Hipotético-Deductivo, lo utiliza para su Falsacionismo, de esta manera: Si el resultado observacional  no se cumple, es falseado, es decir no se cumple la predicción, esto falsa la Teoría, porque la Teoría había hecho una predicción de lo que iba a ocurrir, de lo que se concluye que la Hipótesis General estaba mal planteada.
@@ -498,7 +506,7 @@ Si el fusible está fundido, entonces el secador no funciona [Marco teórico]
 Cabe aquí también mencionar el tema de 
 **LOS CONTRAFÁCTICOS**
  que plantean la negación del antecedente ¿Qué sucedería si la causa que se ha manejado como tal, no hubiera sucedido? Para saber más sobre este tema 
-**[haz clic en el siguiente artículo.](http://edgarredondo.com/los-contrafacticos/)**
+**[haz clic en el siguiente artículo.](/los-contrafacticos/)**
 ## PENSAMIENTO CRÍTICO
 ![Imagen 5](/images/pensadores-criticos/image_5.jpg)
 **El Pensamiento Crítico**
@@ -517,7 +525,7 @@ El
  se encuentra muy ligado al 
 **escepticismo**
  a través del estudio y detección de las 
-[falacias](http://edgarredondo.com/no-falacias-razonar/)
+[falacias](/no-falacias-razonar/)
 *,*
  procurando identificar y superar las numerosas barreras u obstáculos que los prejuicios o sesgos introducen, y así estar mejor equipados para tomar decisiones, utilizando un pensamiento de alta calidad que contribuye a la efectividad profesional, e incluso en nuestra calidad de vida.
 Como ya he dicho entiendo las 

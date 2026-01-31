@@ -16,7 +16,7 @@
     
     {{ if .Params.featured_image }}
     <div class="post-thumbnail">
-        <img alt="{{ .Title }}" src="{{ printf "%s%s" .Site.BaseURL (strings.TrimPrefix "/" .Params.featured_image) }}" />
+        <img alt="{{ .Title }}" src="{{ strings.TrimPrefix "/" .Params.featured_image | relURL }}" />
     </div>
     {{ end }}
     
@@ -24,17 +24,39 @@
         {{ .Content }}
     </div>
     
-    {{ if .Params.categories }}
+    {{ $categories := .GetTerms "category" }}
+    {{ $tags := .GetTerms "tag" }}
+    {{ if or $categories $tags }}
     <footer class="entry-footer">
+        {{ with $categories }}
         <span class="cat-links">
-            Categorías: 
-            {{ range $index, $category := .Params.categories }}
-                {{ if $index }}, {{ end }}
-                <a href="{{ printf "/categories/%s/" ($category | urlize) | relURL }}">{{ $category }}</a>
+            Categorías:
+            {{ range $index, $term := . }}
+                {{ if $index }}, {{ end }}<a href="{{ $term.RelPermalink }}">{{ $term.Title }}</a>
             {{ end }}
         </span>
+        {{ end }}
+        {{ with $tags }}
+        <span class="tags-links">
+            Etiquetas:
+            {{ range $index, $term := . }}
+                {{ if $index }}, {{ end }}<a href="{{ $term.RelPermalink }}">{{ $term.Title }}</a>
+            {{ end }}
+        </span>
+        {{ end }}
     </footer>
+    {{ end }}
+
+    {{ $related := first 3 (.Site.RegularPages.Related .) }}
+    {{ if $related }}
+    <div id="crp_related" class="crp_related">
+        <h3>Artículos relacionados</h3>
+        <ul>
+            {{ range $related }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
     {{ end }}
 </article>
 {{ end }}
-

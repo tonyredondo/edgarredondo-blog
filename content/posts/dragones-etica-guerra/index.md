@@ -1,14 +1,17 @@
 ---
-title: "Dragones, ética y estrategias para la guerra"
-date: 2017-09-03
+title: Dragones, ética y estrategias para la guerra
+date: '2017-09-03'
 draft: false
-featured_image: "/images/dragones-etica-guerra/image_1.jpg"
-categories:
-  - Cine y series
+featured_image: /wp-content/uploads/2017/09/nuclear-730x330.jpg
+slug: dragones-etica-guerra
+description: Juego de Tronos, es una vitrina a los problemas asociados con el poder
+  y la guerra. En particular al dilema ético que plantea el uso militar de los dragones
+category:
+- Cine y series
 ---
 
 Leer el artículo anterior → 
-[La física en Juego de Tronos: Cómo montar en dragón y las incoherencias espacio temporales en Poniente.](http://edgarredondo.com/fisica-juego-tronos/)
+[La física en Juego de Tronos: Cómo montar en dragón y las incoherencias espacio temporales en Poniente.](/fisica-juego-tronos/)
 Game of Thrones, es toda una vitrina a los problemas asociados con 
 **el poder y la guerra**
 . En particular al dilema ético que plantea el uso militar de los dragones por lo desvastador que puede llegar a ser. Es que esas bestias en la batalla literalmente convierten al ejército enemigo en ceniza.
@@ -30,7 +33,7 @@ Algunos críticos han comparado a los dragones de Daenerys con las
 Estados Unidos mató a cientos de miles de civiles en la Segunda Guerra Mundial, y se ha discutido, una y otra vez, la decisión del presidente Truman de lanzar bombas atómicas sobre 
 **Hiroshima y Nagasaki**
 . Los que simpatizan piensan que de esa forma se puso fin a la guerra tan pronto como fue posible, evitando al mismo tiempo la invasión de Japón y, quizás (entraría en el terreno de 
-[lo Contrafáctico](http://edgarredondo.com/los-contrafacticos/)
+[lo Contrafáctico](/los-contrafacticos/)
 ), con menos derramamiento de sangre que si se hubiera actuado de otra manera.
 Eran sus dragones… Truman los usó… y ya conocemos la historia.
 Pero ahora volviendo a “

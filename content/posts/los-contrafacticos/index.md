@@ -1,10 +1,17 @@
 ---
-title: "Los Contrafácticos"
-date: 2017-08-27
+title: Los Contrafácticos
+date: '2017-08-27'
 draft: false
-featured_image: "/images/los-contrafacticos/image_1.jpg"
-categories:
-  - Lógica
+featured_image: /wp-content/uploads/2017/08/la_vida_es_bella-730x330.jpg
+slug: los-contrafacticos
+description: Descubre la lógica de los condicionales, las posibilidades de la Ucronía
+  en la vida diaria y el arte ¿Juegas a los Contrafácticos con nosotros?
+category:
+- Lógica
+tag:
+- cine
+- literatura
+- lógica
 ---
 
 # A diario nos apetece especular sobre la historia “real”…

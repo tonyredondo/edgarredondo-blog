@@ -1,10 +1,15 @@
 ---
-title: "La magia del número de Graham"
-date: 2017-08-13
+title: La magia del número de Graham
+date: '2017-08-13'
 draft: false
-featured_image: "/images/numero-de-graham/image_1.jpg"
-categories:
-  - Matemáticas
+featured_image: /wp-content/uploads/2017/08/numero_graham.png
+slug: numero-de-graham
+description: ¿Saben cual es el número &quot;útil&quot; más grande para las matemáticas?
+  Definimos y explicamos el Número de Graham y sus implicaciones para diferentes ciencias.
+category:
+- Matemáticas
+tag:
+- matemáticas
 ---
 
 ### ¿Saben cuál es el número más grande que es «*útil*» para las matemáticas?
@@ -179,4 +184,4 @@ No es una sorpresa decir que este es
 .
 ![Universo](/images/numero-de-graham/image_6.jpg)
 [Continuar leyendo «Reflexiones sobre el Número de Graham»
-](http://edgarredondo.com/reflexiones-numero-de-graham/)
+](/reflexiones-numero-de-graham/)

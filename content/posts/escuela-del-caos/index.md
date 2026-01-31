@@ -1,9 +1,11 @@
 ---
-title: "La Escuela del Caos y la Parálisis Paradigmática"
-date: 2025-10-29T10:00:00+01:00
+title: La Escuela del Caos y la Parálisis Paradigmática
+date: 2025-10-29 10:00:00+01:00
 draft: false
-categories: ["Educacion", "Filosofía"]
-featured_image: "/images/escuela-del-caos/portada.png"
+featured_image: /images/escuela-del-caos/portada.png
+category:
+- Educación
+- Filosofía
 ---
 
 **Una comedia educativa y metodológica en varios actos**
@@ -163,4 +165,3 @@ Todos rieron. El timbre sonó -¡a tiempo por primera vez!- y **Sebas** alzó su
 > **Y cuando un paradigma se congela, el mejor calor es la imaginación compartida, porque la parálisis paradigmática se cura cuando te atreves a cambiar los lentes con los que ves el mundo.**
 
 *…..¡ That´s All Folks !.....*
-

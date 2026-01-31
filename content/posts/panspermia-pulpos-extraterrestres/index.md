@@ -1,11 +1,15 @@
 ---
-title: "Los Pulpos… Los Extraterrestres…  y el Origen de La Vida en nuestro Planeta"
-date: 2018-05-17
+title: Los Pulpos… Los Extraterrestres…  y el Origen de La Vida en nuestro Planeta
+date: '2018-05-17'
 draft: false
-featured_image: "/images/panspermia-pulpos-extraterrestres/image_1.png"
-categories:
-  - biología
-  - curiosidades
+featured_image: /wp-content/uploads/2018/05/llegada-730x330.jpg
+slug: panspermia-pulpos-extraterrestres
+description: Panspermia, que sostiene que la vida no se originó en  la Tierra, sino
+  que llegó a nuestro planeta, y a otros muchos, a través del espacio. ¿Son los pulpos
+  descendientes de extraterrestres? Descubre el origen de estos fascinantes animales
+category:
+- Biología
+- Curiosidades
 ---
 
 La finalidad de la divulgación es fomentar el interés de la sociedad por temas científicos a fin de promover vocaciones hacia la ciencia, el desarrollo y la innovación. Ahora bien, hay tipos de investigación que no son fáciles de entender y que pueden chocar con nuestras creencias, como es esta donde se abandona el relato del Génesis. Aunque nadie sabe aún con certeza cómo surgió la vida… Esta teoría seguro, te emocionará.

@@ -1,11 +1,14 @@
 ---
-title: "FILOSOFANDO EN NUESTRA COTIDIANIDAD… Parafraseando a Don Mario Bunge."
-date: 2017-09-21
+title: FILOSOFANDO EN NUESTRA COTIDIANIDAD… Parafraseando a Don Mario Bunge.
+date: '2017-09-21'
 draft: false
-featured_image: "/images/mario-bunge/image_1.jpg"
-categories:
-  - Epistemología
-  - Filosofía
+featured_image: /wp-content/uploads/2017/08/escritura.jpg
+slug: mario-bunge
+description: Celebrando el cumpleaños de Mario Bunge, hablamos de la filosofía del
+  día a día y de la importancia del conocimiento en cualquier ocasión
+category:
+- Epistemología
+- Filosofía
 ---
 
 ![Mario Bunge](/images/mario-bunge/image_1.jpg)
@@ -51,4 +54,4 @@ Sirvan pues, las siguientes líneas para incrementar en mis amigos la potencia d
 Debo finalmente agregar que aparte de
 ** Don Mario Bunge**
  (que es el tenor principal), me apoyo, como fuente, en el conocimiento de grandes conocedores como lo son: Gustavo E. Romero, José Padrón y Evaristo Méndez, entre otros. Espero no traicionar sus ideas al plantear esta visión.
-#### **Seguir leyendo →** [Cuestiones de la Filosofía Científica](http://edgarredondo.com/filosofia-cientifica/)
+#### **Seguir leyendo →** [Cuestiones de la Filosofía Científica](/filosofia-cientifica/)

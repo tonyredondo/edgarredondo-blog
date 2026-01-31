@@ -1,10 +1,13 @@
 ---
-title: "La Historia de tu Vida…. La Llegada…."
-date: 2018-09-19
+title: La Historia de tu Vida…. La Llegada….
+date: '2018-09-19'
 draft: false
-featured_image: "/images/la-historia-de-tu-vida-la-llegada/image_1.jpg"
-categories:
-  - lingüística
+featured_image: /wp-content/uploads/2018/09/llegada-730x330.jpg
+slug: la-historia-de-tu-vida-la-llegada
+description: La Llegada o como los extraterrestres están muy interesados en la percepción,la
+  consciencia y, sobre todo, en la comunicación…
+category:
+- Lingüística
 ---
 
 **O como **

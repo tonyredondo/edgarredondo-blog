@@ -1,0 +1,26 @@
+{{- $pages := where .Site.RegularPages "Section" "posts" -}}
+[
+{{- range $index, $page := $pages -}}
+  {{- if $index }},{{ end }}
+  {{- $image := "" -}}
+  {{- with $page.Params.featured_image -}}
+    {{- $image = strings.TrimPrefix "/" . | relURL -}}
+  {{- end -}}
+  {{- $summary := "" -}}
+  {{- if $page.Params.description -}}
+    {{- $summary = $page.Params.description | plainify -}}
+  {{- else -}}
+    {{- $summary = $page.Summary | plainify -}}
+  {{- end -}}
+  {
+    "title": {{ $page.Title | jsonify }},
+    "url": {{ $page.RelPermalink | jsonify }},
+    "date": {{ $page.Date.Format "2006-01-02" | jsonify }},
+    "summary": {{ $summary | jsonify }},
+    "content": {{ $page.Plain | jsonify }},
+    "featured_image": {{ $image | jsonify }},
+    "categories": {{ $page.Params.category | jsonify }},
+    "tags": {{ $page.Params.tag | jsonify }}
+  }
+{{- end }}
+]

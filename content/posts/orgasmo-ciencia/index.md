@@ -1,11 +1,19 @@
 ---
-title: "¿Sabías que la ciencia puede ser muy sexy?"
-date: 2017-11-05
+title: ¿Sabías que la ciencia puede ser muy sexy?
+date: '2017-11-05'
 draft: false
-featured_image: "/images/orgasmo-ciencia/image_1.png"
-categories:
-  - curiosidades
-  - Sin categoría
+featured_image: /wp-content/uploads/2017/11/sexy-science-730x330.png
+slug: orgasmo-ciencia
+description: Descubre qué hay tras el orgasmo a nivel científico, estudios y curiosidades
+  sobre un tema que aún es tabú para muchos ¡Aprender puede ser sexy!
+category:
+- Curiosidades
+- Sin categoría
+tag:
+- biología
+- curiosidades
+- orgasmo
+- sexo
 ---
 
 *El** Orgasmo**… lo único que le queda al pobre*

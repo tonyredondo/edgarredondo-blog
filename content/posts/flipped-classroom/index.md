@@ -1,10 +1,17 @@
 ---
-title: "Flipped Classroom o Clase Invertida"
-date: 2019-05-19
+title: Flipped Classroom o Clase Invertida
+date: '2019-05-19'
 draft: false
-featured_image: "/images/flipped-classroom/image_1.png"
-categories:
-  - educacion
+featured_image: /wp-content/uploads/2019/05/The-Flipped-CLASSROOM-hz-730x224.jpg
+slug: flipped-classroom
+description: Una visión del cómo las Nuevas Tecnologías y la Analítica pueden mejorar
+  las clases de Matemática, Física, Química, Programación, Inglés...
+category:
+- Educación
+tag:
+- analítica
+- educación
+- tecnología
 ---
 
 ### **Una visión del cómo las Nuevas Tecnologías y la Analítica pueden mejorar las clases de Matemática, Física, Química, Programación, Inglés…**

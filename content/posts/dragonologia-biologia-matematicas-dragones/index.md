@@ -1,14 +1,17 @@
 ---
-title: "Dragonología: Biología y matemáticas de los dragones"
-date: 2017-09-03
+title: 'Dragonología: Biología y matemáticas de los dragones'
+date: '2017-09-03'
 draft: false
-featured_image: "/images/dragonologia-biologia-matematicas-dragones/image_1.jpg"
-categories:
-  - Cine y series
+featured_image: /wp-content/uploads/2017/09/Dragon_Eggs-730x330.png
+slug: dragonologia-biologia-matematicas-dragones
+description: Analizamos la anatomía de los dragones comparada con algunos de los animales
+  reales más increibles y te retamos a dibujar un dragón fractal
+category:
+- Cine y series
 ---
 
 Leer artículo anterior → 
-[Recorrido por la historia de los 3 dragones en Juego de Tronos](http://edgarredondo.com/recorrido-la-historia-los-3-dragones-juego-tronos/)
+[Recorrido por la historia de los 3 dragones en Juego de Tronos](/historia-dragones-juego-tronos/)
 Aunque en “
 *Juego de Tronos*
 ” los dragones son mágicos, comparten algunas 
@@ -94,4 +97,4 @@ Se suele citar a Martin Gardner como su autor. Y para rematar, una sorprenden
 *piezas*
 «.
 Seguir leyendo → 
-[La física en Juego de Tronos: Cómo montar en dragón y las incoherencias espacio temporales en Poniente. ](http://edgarredondo.com/fisica-juego-tronos/)
+[La física en Juego de Tronos: Cómo montar en dragón y las incoherencias espacio temporales en Poniente. ](/fisica-juego-tronos/)

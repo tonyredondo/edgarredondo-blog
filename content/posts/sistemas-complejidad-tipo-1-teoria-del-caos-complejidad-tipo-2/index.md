@@ -1,10 +1,11 @@
 ---
-title: "Sistemas: Complejidad Tipo 1, Teoría del Caos y Complejidad Tipo 2"
-date: 2018-04-27
+title: 'Sistemas: Complejidad Tipo 1, Teoría del Caos y Complejidad Tipo 2'
+date: '2018-04-27'
 draft: false
-featured_image: "/images/sistemas-complejidad-tipo-1-teoria-del-caos-complejidad-tipo-2/image_1.png"
-categories:
-  - Sin categoría
+featured_image: /wp-content/uploads/2018/04/parquejurasico.png
+slug: sistemas-complejidad-tipo-1-teoria-del-caos-complejidad-tipo-2
+category:
+- Sin categoría
 ---
 
 ## **Complejidad Tipo I**

@@ -1,12 +1,15 @@
 ---
-title: "La Física Aristotélica  y  sus Criterios de Realidad"
-date: 2017-12-06
+title: La Física Aristotélica  y  sus Criterios de Realidad
+date: '2017-12-06'
 draft: false
-featured_image: "/images/fisica-aristotelica/image_1.png"
-categories:
-  - Filosofía
-  - Física
-  - Lógica
+featured_image: /wp-content/uploads/2017/12/Aristoteles-730x330.png
+slug: fisica-aristotelica
+description: Aristóteles se nos revela, a pesar de sus 2400 años, como un pensador
+  vivo. Todos somos aristotélicos ¡y la mayoría sin saberlo! ¿Quieres saber más?
+category:
+- Filosofía
+- Física
+- Lógica
 ---
 
 Aristóteles se nos revela, a pesar de sus 2400 años, como un 
@@ -52,7 +55,7 @@ Responder esta interrogante será la aspiración de las siguientes reflexiones, 
 **El Paradigma de la Física Aristotélica**
 ”.
 Es que cada estructura histórico-social, que el desarrollo humano genera, establece su propia forma de conocer y pensar (
-[episteme](http://edgarredondo.com/fundamentos-epistemologicos/)
+[episteme](/fundamentos-epistemologicos/)
 ), de manera que las respuestas que la humanidad busca, están condicionadas por dicho episteme.
 Así, todos nosotros al nacer nos insertamos en una historia común que nos arropa, en una corriente del pensamiento, en una tradición, incluso en un idioma, sin los cuales no podemos pensar, ni hablar. De tal manera que el pensamiento de Aristóteles estaba influido por su período histórico, conformando un campo de posibilidades que tendría las características propias de dicho período, con el sello distintivo no sólo de la sociedad griega sino, principalmente, del entorno social en el que él se desarrolló, en el cual destacaba su maestro: Platón.
 Bajo esa óptica puedo afirmar que todo lo que Aristóteles escribió estaba, de una u otra forma, teñido por la visión del mundo griego de aquel entonces, que sirvió de base para sus conocimientos previos, lo que él esperaba ver, así como la estructura de conceptos que posteriormente él conformaría. Es por ello que abordaré el mundo de la Antigua Grecia, el cual conforma su ámbito de enunciación, es decir, aquellos lugares de donde los enunciados provienen, y con los cuales se desarrollaría su particular discurso, dentro del llamado “
@@ -67,7 +70,7 @@ Puedo afirmar sin la menor duda que esa práctica discursiva de Aristóteles, de
 Es un hecho que la primera teoría especulativa de la Física de la que se tengan noticias se debe a Aristóteles, cuyos conceptos, que nacieron de aceptar el principio de la armonía del Universo, tuvieron un reinado que duró casi dos mil años.
 Aristóteles fue un pensador con espíritu empirista, es decir que buscó fundamentar el conocimiento humano en la experiencia, por ello una de sus primeras preocupaciones fue encontrar una explicación racional para el mundo que lo rodeaba. Él entendía que había una realidad exterior que podía ser accesible al conocimiento, y para ello tenía que partir de las experiencias, es decir, de todas las sensaciones que nos ofrece el mundo de la percepción y del conocimiento sensible. Por el contrario, para su maestro, Platón, los experimentos de pensamiento y el razonamiento bastarían para “probar” un concepto o establecer las cualidades de un objeto. Así para el ateniense, habrían dos mundos: el  de las “ideas” que era lo real y el mundo sensible que era lo aparente.
 Es vital mencionar que el estudio de Aristóteles fue meramente cualitativo, ajeno a las matemáticas. Era, a priori, muy intuitivo. Así, su 
-[método de hacer Ciencia](http://edgarredondo.com/filosofia-cientifica/)
+[método de hacer Ciencia](/filosofia-cientifica/)
  se contentaba con observar y anotar los fenómenos del mundo físico, debido a lo cual nunca elaboró conclusiones del tipo que hoy conocemos como 
 *“leyes físicas*
 ”. Es que, para empezar, no tenía el concepto moderno de experimento. Aristóteles había mantenido que la naturaleza era imposible de aprehender de una manera exacta, de ahí que su afán fuese construir una “
@@ -178,4 +181,4 @@ Por otra parte, el
 Así, 
 **los cielos se mueven de forma natural e infinita**
  siguiendo un complejo movimiento circular… Nada más romántico… Es que las modalidades enunciativas aristotélicas hunden sus raíces en los dominios del sentido común… lo que se ve y que, luego, se hace lógico.
-**Continúa leyendo –> [El movimiento para Aristóteles ](http://edgarredondo.com/movimiento-aristoteles/)**
+**Continúa leyendo –> [El movimiento para Aristóteles ](/movimiento-aristoteles/)**

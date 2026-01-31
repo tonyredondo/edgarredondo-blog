@@ -1,16 +1,24 @@
 ---
-title: "Reflexiones sobre el Número de Graham"
-date: 2017-08-20
+title: Reflexiones sobre el Número de Graham
+date: '2017-08-20'
 draft: false
-featured_image: "/images/reflexiones-numero-de-graham/image_1.png"
-categories:
-  - Epistemología
-  - Filosofía
-  - Matemáticas
+featured_image: /wp-content/uploads/2017/08/realidad-730x330.jpg
+slug: reflexiones-numero-de-graham
+description: Reflexiones a nivel epistemológico, lingüístico y filosófico del Número
+  de Graham ¿Cómo pensar en un número inmenso e incalculable?
+category:
+- Epistemología
+- Filosofía
+- Matemáticas
+tag:
+- epistemología
+- filosofía
+- lingüística
+- matemáticas
 ---
 
 Lee el
-** [artículo anterior sobre el Número de Graham](http://edgarredondo.com/numero-de-graham/)**
+** [artículo anterior sobre el Número de Graham](/numero-de-graham/)**
 Es realmente fascinante el 
 **Número G de Graham**
 . Comenzamos con números que en demasía son muy grandes para encajar en nuestra realidad, y luego los elevamos a potencias más allá de la comprensión de nuestros cerebros.

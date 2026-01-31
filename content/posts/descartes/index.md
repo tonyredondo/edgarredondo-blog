@@ -1,10 +1,18 @@
 ---
-title: "De la Teta a la Nada….  Un corto viaje de la mano de René Descartes."
-date: 2018-07-24
+title: De la Teta a la Nada….  Un corto viaje de la mano de René Descartes.
+date: '2018-07-24'
 draft: false
-featured_image: "/images/descartes/image_1.png"
-categories:
-  - Filosofía
+featured_image: /wp-content/uploads/2018/07/descartesportada.png
+slug: descartes
+description: El &quot;Pienso, luego Existo&quot; comienza, con la lactancia materna,
+  se convierte finalmente en &quot;Existo, porque Disipo&quot;… y así, hasta que “Todo
+  acabe siendo Nada”.
+category:
+- Filosofía
+tag:
+- filosofía
+- física
+- universo
 ---
 
 ## Descartes
