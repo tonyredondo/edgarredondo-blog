@@ -26,6 +26,11 @@ removePathAccents = true
   includeNewer = true
   toLower = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [[related.indices]]
   name = "tags"
   weight = 100

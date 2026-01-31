@@ -79,3 +79,5 @@ No me dirás que no es una bella curiosidad matemática la “
 ” del Cuerno de Gabriel… Ahhh y la semana próxima nos vamos de fiesta… 
 **Nos vamos de Halloween**
 … ¿Vale?
+
+<iframe src="//giphy.com/embed/pLWfbn1WVKzMQ" width="480" height="342" frameborder="0" allowfullscreen></iframe>
