@@ -2,6 +2,7 @@
 <article class="post type-post status-publish format-standard has-post-thumbnail hentry">
     <header class="entry-header">
         <h1 class="entry-title" itemprop="headline">{{ .Title }}</h1>
+        {{ if eq .Section "posts" }}
         <div class="entry-meta">
             <span class="byline" itemprop="author" itemscope itemtype="https://schema.org/Person">
                 BY <span class="authors vcard"><span class="url fn n">Edgar Redondo</span></span>
@@ -12,6 +13,7 @@
                 </time>
             </span>
         </div>
+        {{ end }}
     </header>
     
     {{ if .Params.featured_image }}

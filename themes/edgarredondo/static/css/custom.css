@@ -65,6 +65,35 @@ article {
     margin: 20px 0;
 }
 
+.entry-content > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1.75em auto;
+    float: none;
+    clear: both;
+}
+
+.entry-content .content-image {
+    margin: 1.75em 0;
+}
+
+.entry-content .content-image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    clear: both;
+}
+
+.entry-content .content-image figcaption {
+    color: #777;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
 .pagination {
     text-align: center;
     margin: 30px 0;
@@ -81,6 +110,10 @@ article {
 
 .pagination a:hover {
     background: #018c82;
+}
+
+.single .site-content #primary .entry-meta time {
+    text-transform: uppercase;
 }
 
 @media (max-width: 768px) {

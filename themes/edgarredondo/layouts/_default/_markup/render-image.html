@@ -2,4 +2,9 @@
 {{- if hasPrefix $url "/" -}}
     {{- $url = strings.TrimPrefix "/" $url | relURL -}}
 {{- end -}}
-<img src="{{ $url }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }} />
+<figure class="content-image">
+    <img src="{{ $url }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }} />
+    {{- with .Title -}}
+    <figcaption>{{ . }}</figcaption>
+    {{- end -}}
+</figure>
