@@ -64,7 +64,8 @@ hugo new posts/nuevo-articulo/index.md
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/tonyredondo/edgarredondo-blog)
 
 **Configuración de build:**
-- Build command: `hugo --minify`
+- Build command (prod): `hugo --minify --environment production`
+- Build command (dev): `hugo --minify --environment development`
 - Publish directory: `public`
 - Hugo version: `0.146.0`
 
@@ -73,6 +74,10 @@ hugo new posts/nuevo-articulo/index.md
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tonyredondo/edgarredondo-blog)
 
 ### GitHub Pages
+
+Este repo usa config por entorno:
+- `config/_default/hugo.toml` → baseURL de desarrollo (GitHub Pages).
+- `config/production/hugo.toml` → baseURL de producción (dominio final).
 
 1. Ir a Settings → Pages
 2. Source: GitHub Actions
